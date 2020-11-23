@@ -17,5 +17,8 @@ public class Test2 {
 
         System.out.println(b);
 
+        String result2 =  a.stream().map(x -> x.toString()).collect(Collectors.joining(","));
+        System.out.println(result2);
+
     }
 }
